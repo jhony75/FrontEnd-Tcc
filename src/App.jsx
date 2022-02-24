@@ -1,5 +1,13 @@
-import './styles/global.scss';
+import { Heading } from '@chakra-ui/react';
+import { List } from './components/List';
 
-export function App() {
-  return <h1>Now on liveServer, inside Docker!</h1>;
+function App() {
+  return (
+    <>
+      <Heading>Header</Heading>
+      <List />
+    </>
+  );
 }
+
+export { App };
